@@ -1,10 +1,11 @@
 export interface Post {
-  id:string;
+  id: string;
   title: string;
   content: string;
+  imagePath: string;
 }
 
-export interface APIPostModel{
-  message:string;
-  posts:any[]
+export interface APIPostModel {
+  message: string;
+  posts: any[];
 }
